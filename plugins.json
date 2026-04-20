@@ -6464,8 +6464,8 @@
     "longdescription": "Rikugan embeds an agentic LLM workflow into Binary Ninja with native tooling, skills, and an integrated chat sidebar. Supports multiple LLM providers (Anthropic, OpenAI, Google, Ollama) and MCP tool servers.\n\n### Changelog\nv1.3: Faster UI, Cleaner Chat, and More Reliable Startup\r\n\r\nThis release improves the Windows installation workflow and enhances overall performance.\r\n\r\nThemes now follow the theme selected in IDA instead of using a hardcoded dark mode, which also fixes several crashes on Windows. It also includes broader performance and algorithm improvements for a smoother overall experience.\r\n\r\nChangelog:\r\n\r\n  - Improved chat and UI responsiveness, with lower restore/render overhead and bulk renamer/markdown performance work.\r\n  - Restored host-native theming and chat card styling, plus removed Qt shim-dependent UI usage.\r\n  - Hardened bootstrap/auth-cache initialization by lazy-loading dependencies and improving early logging behavior.\r\n  - Fixed installer detection for IDA\u2019s bundled Python, reducing setup failures in host environments.\r\n  - Tightened Qt compatibility and test stubs to better match runtime behavior.\r\n  - Fixed order-dependent test failures and cleaned up gate/lint issues.\r\n  - Cleaned up deprecated agent markdown docs while restoring files that were removed accidentally.\r\n  - Bumped plugin/tag metadata for the v1.3 release.",
     "minimumbinaryninjaversion": 3164,
     "name": "Rikugan",
-    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/f8aa75e7-9b38-4eff-82b1-6f9104d48633/platforms/3385/download",
-    "packageUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/f8aa75e7-9b38-4eff-82b1-6f9104d48633/platforms/3385/download?notrack=1",
+    "packageShortUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/bc1abb9d-f887-4c87-8584-e77cccb43b16/platforms/3397/download",
+    "packageUrl": "https://extensions.binary.ninja/v1/extensions/79abb228-6c9e-4a79-8e57-bd2bdd4c1a82/versions/bc1abb9d-f887-4c87-8584-e77cccb43b16/platforms/3397/download?notrack=1",
     "path": "buzzerre_rikugan",
     "platforms": [
       "Darwin",
@@ -6483,7 +6483,7 @@
       "ui",
       "helper"
     ],
-    "version": "1.3.0",
+    "version": "1.3",
     "view_only": false
   },
   {
