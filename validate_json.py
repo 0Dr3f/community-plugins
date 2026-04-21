@@ -6,6 +6,7 @@ import re
 import sys
 
 import requests
+from generate_plugininfo import validateRequiredFields
 
 
 GITHUB_REPO_PATTERN = re.compile(
@@ -62,7 +63,7 @@ def repo_from_issue_content(issue_content):
 def validate_local_plugin_json(path):
     try:
         with open(path, "r", encoding="utf-8") as f:
-            json.load(f)
+            plugin_data = json.load(f)
     except FileNotFoundError:
         print(f"ERROR: Local file not found: {path}")
         return False
@@ -73,6 +74,9 @@ def validate_local_plugin_json(path):
         print(f"ERROR: Could not read {path}: {e}")
         return False
 
+    if not validateRequiredFields(plugin_data):
+        print(f"ERROR: plugin.json metadata validation failed for {path}.")
+        return False
     print(f"OK: Local JSON is valid: {path}")
     return True
 
@@ -128,9 +132,13 @@ def validate_remote_repo(repo, token):
 
     try:
         decoded = base64.b64decode(encoded_content.replace("\n", ""), validate=True)
-        json.loads(decoded)
+        plugin_json = json.loads(decoded)
     except (ValueError, json.JSONDecodeError) as e:
         print(f"ERROR: plugin.json in {repo} at tag '{tag}' is not valid JSON: {e}")
+        return False
+
+    if not validateRequiredFields(plugin_json):
+        print(f"ERROR: plugin.json metadata validation failed for {repo} at tag '{tag}'.")
         return False
 
     print(f"OK: Remote plugin.json is valid for {repo} at tag '{tag}'.")

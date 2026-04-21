@@ -88,7 +88,8 @@ def validateRequiredFields(data):
 	success &= validateStringMap(data, "license", requiredLicenseKeys, requiredLicenseKeys)
 	validPlatformList = validateList(data, "platforms", validPlatforms)
 	success &= validPlatformList
-	success &= validateStringMap(data, "installinstructions", validPlatforms, list(data["platforms"]) if validPlatformList else None)
+	if "installinstructions" in data:
+		success &= validateStringMap(data, "installinstructions", validPlatforms, list(data["platforms"]) if validPlatformList else None)
 	success &= validateString(data, "version")
 	success &= validateString(data, "author")
 	success &= validateInteger(data, "minimumbinaryninjaversion")
