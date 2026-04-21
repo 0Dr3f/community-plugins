@@ -94,6 +94,7 @@
 | [MCP Server](https://github.com/MCPPhalanx/binaryninja-mcp)|Known Rabbit|MCP Server for Binary Ninja.|2025-05-11|ui, helper|python3|Apache-2.0 |
 | [MSVC](https://github.com/0x1F9F1/binja-msvc)|Brick|Parses MSVC structures to improve analysis|2019-07-12|helper|python2, python3|MIT |
 | [Minidump Loader](https://github.com/redthing1/binja_minidump)|redthing1|Minidump Loader for Binary Ninja|2025-05-09|binaryview, core, ui|python3|MIT |
+| [Mixed Boolean-Arithmetic (MBA) Deobfuscator](https://github.com/bliutech/mbased)|Benson Liu|Automatically simplify mixed boolean-arithmetic (MBA) obfuscation expressions.|2025-08-08|helper|python3|MIT |
 | [MobiCore Loader Format](https://github.com/v-rzh/mclf-binja-loader)|vrzh|Loader for MobiCore trustlets and secure drivers.|2024-07-19|binaryview, helper|python3|MIT |
 | [Mole](https://github.com/cyber-defence-campus/mole)|Damian Pfammatter and Sergio Paganoni|Uncover interesting paths using static backward slicing|2026-03-03|ui, helper|python3|Apache-2.0 |
 | [Moon Analyzer](https://github.com/redthing1/binja_moonanalyzer)|redthing1|Analyze things on the Moon|2026-01-29|binaryview, core, ui|python3|MIT |
