@@ -87,6 +87,7 @@
 | [Itanium C++ ABI](https://github.com/whitequark/binja_itanium_cxx_abi)|whitequark|A plugin providing an analysis for Itanium C++ ABI.|2023-03-01|analysis|python2, python3|BSD-0-clause |
 | [JMPscare](https://github.com/fgsect/JMPscare-binja)|Lukas Seidel|Fuzzing Introspection for use with the JMPscare Toolkit.|2022-12-07|binaryview, core, helper, ui|python3|MIT |
 | [JNIAnalyzer](https://github.com/Ayrx/binja-JNIAnalyzer)|Terry Chia (Ayrx)|Analysis scripts for Binary Ninja to work with Android NDK libraries.|2022-03-27|helper|python3|MIT |
+| [JNIAtlas](https://github.com/nyxFault/JNIAtlas/)|nyxFault|Map JNI entry points from an APK and explore JNI→native call graphs.|2026-04-21|helper|python3|MIT |
 | [Jump table branch editor](https://github.com/Vasco-jofra/jump-table-branch-editor)|jofra|A plugin that eases fixing jump table branches|2019-07-06|ui, core|python2, python3|MIT |
 | [Leak Audit](https://github.com/Vector35/Leak-Audit)|Vector 35 Inc|A debugging tool for Binary Ninja plugin developers to detect and diagnose memory leaks related to BinaryView objects.|2025-11-11|helper|python3|Apache-2.0 |
 | [Lighthouse](https://github.com/gaasedelen/lighthouse)|Markus Gaasedelen|A Coverage Explorer for Reverse Engineers|2024-02-05|helper|python3|MIT |
@@ -126,6 +127,7 @@
 | [Screenshot Ninja](https://github.com/jonpalmisc/screenshot_ninja)|jonpalmisc|Easily capture Binary Ninja screenshots in ultra-high resolution|2025-11-13|helper|python3|MIT |
 | [Shellcode-IDE](https://github.com/CX330Blake/Shellcode-IDE)|CX330Blake|Shellcode IDE makes developing and analyzing shellcode much more convenient.|2025-11-19|binaryview, helper, ui|python3|MIT |
 | [Shellcoder](https://github.com/0xricksanchez/Shellcoder)|434b|Interactive shellcode disassembler/assembler|2024-11-28|helper|python3|Apache 2.0 |
+| [Sig Scanner - Binary Ninja](https://github.com/S1ckZer/Sig-Scanner---Binary-Ninja)|S1ckZer|Sidebar widget for IDA-style byte pattern signature scanning and generation.|2026-03-27|ui|python3|MIT |
 | [Simple YARA Generator](https://github.com/1337-42/SimpleYaraBN)|Remco Sprooten|Generate YARA rules from selected assembly instructions with intelligent architecture-aware wildcarding. Features real-time preview, per-instruction wildcard control, and Capstone Engine integration for accurate opcode preservation across x86/x64, ARM/A...|2025-07-01|ui|python3|MIT |
 | [Sludge Content Sidebar](https://github.com/CouleeApps/sludge_content_sidebar)|Glenn Smith|Brainrot stimulator|2026-04-01|ui, helper|python3|MIT |
 | [Sourcery Pane](https://github.com/mechanicalnull/sourcery_pane)|mechanicalnull|Synchronized source code pane for debug binaries|2019-07-15|ui, helper|python2, python3|MIT |
@@ -157,6 +159,7 @@
 | [binja_sigmaker](https://github.com/apekros/binja_sigmaker)|apekros and Alex3434|Generate and find signatures.|2023-01-29|architecture, binaryview, core, ui|python3|MIT |
 | [binjaextras](https://github.com/xorhex/binjaextras)|xorhex|Various features to make windows malware analysis easier.|2026-04-08|helper|python3|MIT |
 | [bn-ebpf-solana](https://github.com/otter-sec/bn-ebpf-solana)|OtterSec LLC|An architecture/binaryview plugin for Solana EBPF.|2025-07-01|architecture, binaryview|python3|MIT |
+| [bn-pwndbg-sync](https://github.com/nyxFault/bn-pwndbg-sync)|nyxFault|XML-RPC bridge for pwndbg/GDB live BN analysis|2026-04-20|helper|python3|MIT |
 | [bn-riscv](https://github.com/uni-due-syssec/bn-riscv)|Katharina Utz|RISC-V architecture plugin.|2021-01-18|architecture|python2, python3|Apache-2.0 |
 | [bn-riscy-business](https://github.com/eybisi/bn-riscy-business)|Ahmet Bilal Can|RISC-V architecture plugin to load encrypted Riscy-Business binaries.|2025-05-21|architecture|python2, python3|Apache-2.0 |
 | [bn-uefi-helper](https://github.com/zznop/bn-uefi-helper)|Brandon Miller (zznop)|Helper plugin for analyzing UEFI firmware|2023-04-28|helper|python3|MIT |
