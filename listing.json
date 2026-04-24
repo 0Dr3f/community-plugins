@@ -714,5 +714,9 @@
   {
     "name": "lwerdna/keypatch_binja",
     "auto_update": true
+  },
+  {
+    "name": "0Dr3f/RouteNinja",
+    "auto_update": true
   }
 ]
